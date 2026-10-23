@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Moz | Jogos Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">🎮 Pixel<span> Moz</span></div>
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#jogos">Jogos</a>
+        <a href="#noticias">Notícias</a>
+        <a href="#dicas">Dicas</a>
+        <a href="#sobre">Sobre</a>
+    </nav>
+    <button class="menu-btn" onclick="abrirMenu()">☰</button>
+</header>
+
+<section class="hero" id="inicio">
+    <div class="hero-content">
+        <p class="categoria">🎮 UNIVERSO GAMER</p>
+        <h1>Descobre o mundo dos <span>jogos online</span></h1>
+        <p>Notícias, novidades, informações e dicas sobre os jogos online mais populares.</p>
+        <div class="hero-buttons">
+            <a href="#jogos" class="btn">Explorar jogos</a>
+            <a href="#noticias" class="btn secundario">Ver notícias</a>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="jogos">
+    <div class="section-title">
+        <p>MAIS POPULARES</p>
+        <h2>Jogos em destaque</h2>
+    </div>
+
+    <div class="games-container">
+        <div class="game-card">
+            <div class="game-image freefire"><img src="images/freefire.jpg" alt="Free Fire"></div>
+            <div class="game-info">
+                <h3>Free Fire</h3>
+                <p>Battle Royale desenvolvido pela Garena, conhecido pelas partidas rápidas.</p>
+                <button onclick="mostrarInfo('Free Fire')">Ver informações →</button>
+            </div>
+        </div>
+
+        <div class="game-card">
+            <div class="game-image bloodstrike"><img src="images/bloodstrike.jpg" alt="Blood Strike"></div>
+            <div class="game-info">
+                <h3>Blood Strike</h3>
+                <p>Jogo de tiro competitivo com diferentes modos e operadores.</p>
+                <button onclick="mostrarInfo('Blood Strike')">Ver informações →</button>
+            </div>
+        </div>
+
+        <div class="game-card">
+            <div class="game-image pubg"><img src="images/pubg.jpg" alt="PUBG Mobile"></div>
+            <div class="game-info">
+                <h3>PUBG Mobile</h3>
+                <p>Battle Royale onde jogadores competem para serem os últimos sobreviventes.</p>
+                <button onclick="mostrarInfo('PUBG Mobile')">Ver informações →</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="news-section" id="noticias">
+    <div class="section-title">
+        <p>ATUALIZAÇÕES</p>
+        <h2>Últimas notícias</h2>
+    </div>
+
+    <div class="news-container">
+        <article class="news-card">
+            <div class="news-image"><img src="images/noticia-freefire.jpg" alt="Claws Skydive no Free Fire"></div>
+            <div>
+                <span>FREE FIRE · 22/10/2026</span>
+                <h3>Claws Skydive chega amanhã ao Free Fire</h3>
+                <p>O Claws Skydive chega amanhã ao Free Fire e já aparece no jogo com 52% de desconto. Cada nova tentativa custa mais diamantes e os itens não se repetem, por isso prepara-te bem.</p>
+                <a href="#">Ler mais →</a>
+            </div>
+        </article>
+
+        <article class="news-card">
+            <div class="news-image"><img src="images/noticia-shuriken.jpg" alt="Relíquia EVO Shuriken no Blood Strike"></div>
+            <div>
+                <span>BLOOD STRIKE · 22/10/2026</span>
+                <h3>Nova Evolutiva Shuriken chega amanhã e a Tiadraco regressa</h3>
+                <p>A Relíquia EVO Shuriken chega amanhã ao Blood Strike e já pode ser reservada no jogo. A Relíquia EVO Tiadraco, a evolutiva da M4A1, também está de volta.</p>
+                <a href="#">Ler mais →</a>
+            </div>
+        </article>
+
+        <article class="news-card">
+            <div class="news-image"><img src="images/noticia-lojamaluca.jpg" alt="Oferta Maluca do Blood Strike com desconto de 76%"></div>
+            <div>
+                <span>BLOOD STRIKE · 22/10/2026</span>
+                <h3>Oferta Maluca termina dentro de 16 horas</h3>
+                <p>A Oferta Maluca do Blood Strike, com 76% de desconto, acaba dentro de 16 horas. O grande prémio é a Bizon – Veredito Carmesim, por 720 de ouro em vez de 3000.</p>
+                <a href="#">Ler mais →</a>
+            </div>
+        </article>
+    </div>
+</section>
+
+<section class="tips" id="dicas">
+
+    <div class="tips-box">
+        <div>🎯</div>
+        <h3>Precisão</h3>
+        <p>Pratica regularmente para melhorar a tua mira e reação.</p>
+    </div>
+</section>
+
+<section class="about" id="sobre">
+    <div>
+        <p class="categoria">SOBRE O PROJETO</p>
+        <h2>Pixel Moz</h2>
+        <p>O Pixel Moz é um website desenvolvido com o objetivo de divulgar informações sobre jogos online, apresentando notícias, dicas, novidades e informações para a comunidade gamer.</p>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-logo">🎮 Pixel Moz</div>
+    <p>2026 Pixel Moz.</p>
+    <div class="social">
+        <a href="#">Facebook:"Adinane Mz"</a>
+        <a href="#">Instagram:"Adinane madureira Junior"</a>
+        <a href="#">YouTube: "Adinane madureira"</a>
+        <a href="#">Email: "adinanemozambique@gmail.com"</a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
